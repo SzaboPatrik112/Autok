@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box  ;
+}
+h1{
+    color: rgb(16, 112, 75);
+}
+nav{
+    color: rgb(10, 68, 46);
+    background-color:rgb(24, 85, 62);
+    padding: 15px
+}
+a{
+    color: rgb(45, 168, 121);
+    text-decoration: none;
+    margin: 10px;
+}
+article{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px
+}
+img{
+   width: 500px;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.tartalom{
+background-color: rgb(231, 240, 240);
+}
+aside{
+    margin-left: 10px;
+     padding-right: 5px;
+     border-radius: 5px solid black;
+}
+
+ol{
+    
+}
