@@ -25,8 +25,10 @@ img{
 }
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
 }
+
 .tartalom{
 background-color: rgb(233, 240, 240);
 }
@@ -34,4 +36,11 @@ aside{
     margin-left: 10px;
      padding-right: 5px;
      border-radius: 5px solid black;
+}
+li{
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+    color:rgb(16, 112, 75) ;
 }
